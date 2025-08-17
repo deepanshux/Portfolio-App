@@ -1,0 +1,14 @@
+.experience-container {
+    margin-top: 24px;
+}
+
+.experience-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.experience-content {
+    display: flex;
+    padding: 0px 16px;
+    flex-direction: column;
+}

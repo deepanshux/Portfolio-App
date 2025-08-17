@@ -1,0 +1,39 @@
+.timeline {
+    /* width: 2px; */
+    /* height: 134px; */
+    /* background-color: lightgrey; */
+    /* position: absolute; */
+    /* margin: 78px 0 0 24px; */
+    border-radius: 8px;
+}
+
+.experience-card-container {
+    margin-top: 24px;
+    flex-direction: row;
+    display: flex;
+    gap: 8px;
+}
+
+.experience-card-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.experience-card-details {
+    margin-left: 8px;
+    flex-direction: column;
+    display: flex;
+}
+
+.experience-card-duration {
+    font-size: 14px;
+    color: gray;
+}
+
+.experience-card-description {
+    font-size: 18px;
+    margin-top: 8px;
+    color: grey;
+    list-style-type: circle;
+    padding-left: 16px; /* Indent for bullet points */
+}

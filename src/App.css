@@ -1,0 +1,10 @@
+.App {
+  /* background-color: rgb(225, 230, 234); */
+  padding: 32px 128px;
+}
+
+@media screen and (max-width: 900px){
+  .App {
+    padding: 0;
+  }
+}

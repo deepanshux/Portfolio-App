@@ -1,0 +1,15 @@
+.project-container {
+    margin-top: 24px;
+}
+
+.project-card-container {
+    flex-wrap: wrap;
+    gap: 24px;
+    display: flex;
+    margin-top: 24px;
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: 500;
+}
