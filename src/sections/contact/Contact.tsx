@@ -1,9 +1,7 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useState } from "react";
 import { PrimaryText } from "../../component/PrimaryText";
-import { useTheme } from "../../context/ThemeContext";
 import { FontSize, FontWeight, LightColors } from "../../global/GlobalStyle";
 import "./Contact.css";
-import { LETS_CONNECT_IMAGE } from "../../global/Constant";
 import { sendContactEmail } from "../../service/emailService";
 
 export type ContactFormData = {
@@ -31,7 +29,6 @@ export const Contact = ({
   const [formData, setFormData] =
     React.useState<ContactFormData>(INITIAL_FORM_DATA);
   const [loading, setLoading] = useState(false);
-  const { themeColors } = useTheme();
 
   const clearFormData = () => {
     setFormData(INITIAL_FORM_DATA)

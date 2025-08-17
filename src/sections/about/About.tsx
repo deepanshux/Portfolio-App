@@ -22,7 +22,6 @@ const About = ({
       <img
         className="about-image"
         src={MY_PROFILE_IMAGE}
-        alt={"Profile Photo"}
       />
         <PrimaryText
           text={DEEPANSHU_JAIN}

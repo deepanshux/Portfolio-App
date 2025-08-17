@@ -1,4 +1,3 @@
-import exp from "constants";
 import { CardData } from "../component/card/Card";
 import { ExperienceCardModel } from "../component/card/ExperienceCard";
 import { InTimeTecIcon, MriIcon } from "./SvgIcons";
