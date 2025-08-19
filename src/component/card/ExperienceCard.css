@@ -1,9 +1,4 @@
 .timeline {
-    /* width: 2px; */
-    /* height: 134px; */
-    /* background-color: lightgrey; */
-    /* position: absolute; */
-    /* margin: 78px 0 0 24px; */
     border-radius: 8px;
 }
 
@@ -23,6 +18,7 @@
     margin-left: 8px;
     flex-direction: column;
     display: flex;
+    padding-top: 4px;
 }
 
 .experience-card-duration {
@@ -36,4 +32,11 @@
     color: grey;
     list-style-type: circle;
     padding-left: 16px; /* Indent for bullet points */
+}
+
+@media screen and (max-width: 425px){
+    .experience-card_description {
+        margin-left: -56px;
+        margin-top: 16px;
+    }
 }

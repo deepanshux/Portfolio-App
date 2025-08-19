@@ -109,3 +109,15 @@
     height: 80px;
     background-position: center;
 }
+
+@media screen and (max-width: 375px) {
+    .skill-card {
+        width: 110px;
+    }
+    .project-card {
+        width: 315px;
+    }
+    .card-image {
+        width: 315px
+    }
+}
