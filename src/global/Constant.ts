@@ -77,8 +77,8 @@ export const PROJECT_LIST: CardData[] = [
         link: PMX_APP_LINK
     },
     {
-        title: 'Checkpoint ID',
-        description: 'Checkpoint ID focuses on real-time ID verification by integrating the Dive SDK to scan 2D/MRZ codes on government-issued IDs that makes identifying fraudulent applications so much easier, supporting both mobile and tablet platforms. ',
+        title: 'Engage Protect-ID Verification',
+        description: 'Engage Protect ID focuses on real-time ID verification by integrating the Dive SDK to scan 2D/MRZ codes on government-issued IDs that makes identifying fraudulent applications so much easier, supporting both mobile and tablet platforms. ',
         imageUrl: CHECKPOINT_ID_IMAGE,
         link: CHECKPOINT_APP_LINK
     },
@@ -93,15 +93,18 @@ export const PROJECT_LIST: CardData[] = [
 // Experience constant
 export const EXPERIENCE_LIST: ExperienceCardModel[] = [
     {
-        title: 'Software Engineer',
+        title: 'Software Engineer II',
         company: 'MRI Software',
         duration: 'Sep 2023 - Present',
         description: [
-            `Improved session handling by bypassing redundant authentication for active sessions and implemented
-            session-refresh that auto-renews sessions if app usage occurs within a month, reducing repeated logins by 90%.`,
-            `Integrated OAuth authentication to improve security and allows 100% user authentication coverage in
-            5 regions and 15+ user selected environments.`,
-            'Reduce response time by 50% by implementing Parallel API and Retry mechanism to improve reliability.'
+            `Led the development of an AI-powered conversational platform, from architecture and frontend implementation,
+enabling unified search delivering a single point of access to information and insights across 300+ enterprise products.`,
+            `Architected an offline-first data layer that enabled 100% of user workflows to continue during network outages through
+local persistence and automatic synchronization, ensuring uninterrupted field operations.`,
+            `Engineered server sent events (SSE) based AI response streaming rendering output in 300ms chunks, eliminating UI
+blocking and delivering a smooth real-time chat experience within an enterprise product.`,
+            `Implemented JWT-based authentication and role-based access control (RBAC) combined with OKTA-based OAuth
+across 15+ configurable environments, securing user access across multiple roles and 3 global regions.`
         ],
         icon: MriIcon()
     },
@@ -110,9 +113,9 @@ export const EXPERIENCE_LIST: ExperienceCardModel[] = [
         company: 'In Time Tec',
         duration: 'Feb 2022 - Sep 2023',
         description: [
-            'Maintained iOS SDK for Fraud prevention with real-time data collection to improve the security of applications.',
-            'Enabled integration flexibility with 100% coverage using Static Library, XCFramework, SPM and CocoaPods.',
-            'Built Xamarin and .NET bindings using Objective-C Sharpie, increasing cross-platform usage by 12%.'
+            'Migrated from REST to GraphQL using Apollo Client, eliminating over-fetching and reducing payload size by 60%.',
+            'Configured user authentication and push notification workflows using Firebase and OneSignal.',
+            'Build and maintained reusable component libraries, accelerating feature development and ensuring consistency.'
         ],
         icon: InTimeTecIcon()
     },
@@ -127,10 +130,6 @@ export const SKILL_LIST: CardData[] = [
     {
         title: 'React Native',
         imageUrl: REACT_NATIVE_IMAGE,
-    },
-    {
-        title: 'Swift (iOS)',
-        imageUrl: SWIFT_IMAGE,
     },
     {
         title: 'JavaScript',
